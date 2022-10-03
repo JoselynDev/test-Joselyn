@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href ="assets/css/general.css" rel="stylesheet" type="text/css">
+    <title>Crud</title>
+</head>
+<body>
+    <div class="crud">
+        <div class="form-container">
+            <h1 class="title">Creación de post</h1>
+
+            <form class="form">
+                <div>
+                    <label for="name" class="label">Título</label>
+                    <input type="text" id="name" placeholder="...." class="input input-title" id="input-title">
+                </div>
+
+                <div>
+                    <label for="name" class="label">Contenido</label>
+                    <input type="text" id="name" placeholder="...." class="input input-body" id="input-body">
+                </div>
+
+                <input type="button" value="Crear" class="primary-button button-task" id="button-create">
+            </form>
+
+            <table id="table-Post">
+                <thead>
+                  <tr>
+                    <th>Id</th>
+                    <th>Título</th>
+                    <th>Acciones</th>
+                  </tr>
+                </thead>
+                <caption>
+                  Lista de Post
+                </caption>
+              </table>
+        </div>
+    </div>
+
+    <script src="assets/js/exercise_2.js"></script>
+</body>
+
+</html>
